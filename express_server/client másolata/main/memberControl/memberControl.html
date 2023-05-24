@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./memberControl.css">
+    <title>Document</title>
+</head>
+<body >
+    <div id="menu">
+		<div class="hamburger">
+			<div class="line"></div>
+			<div class="line"></div>
+			<div class="line"></div>
+		</div>
+		<div class="menu-inner">
+			
+			<ul class="row">
+				<li class="text-start text-dark p-2 m-2" id="email"></li>
+				<li class="text-start text-dark p-2 m-2" id="name"></li>
+                <hr>
+				<li class="text-start btn btn-dark   text-dark p-2 m-2"><a class="text-light nav-link" href="../homepage/home.html">Home</a></li>
+				<li class="text-start btn btn-dark text-dark p-2 m-2"><a class="text-light nav-link"  href="../memberControl/memberControl.html"> Member Control</a></li>
+				<li class="text-start btn btn-dark text-dark p-2 m-2"><a class="text-light nav-link" id="logout"  >Logout</a></li>
+			</ul>
+		</div>
+  
+  
+		
+		<svg version="1.1" id="blob"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+			<path id="blob-path" d="M60,500H0V0h60c0,0,20,172,20,250S60,900,60,500z"/>
+		</svg>
+	</div>
+
+
+    <ul class=" text-warning container" style="margin-left: 10%; margin-right: 10%;">
+		<li>
+			<div class="row">
+				<h1 class="col-12 text-center ">Member Control</h1>
+			</div>
+		</li>
+		<li>
+			<hr>
+            <table class="table table-dark col-12 mt-5 ">
+                <thead>
+                  <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">email</th>
+                    <th scope="col">Can Create Member</th>
+                  </tr>
+                </thead>
+                <tbody id="member">
+                  
+                  
+                </tbody>
+              </table>
+		</li>
+	</ul>
+
+
+    <script type="module" src="./index.js"></script>
+    <script type="module" src="./memberControl.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   
+</body>
+</html>

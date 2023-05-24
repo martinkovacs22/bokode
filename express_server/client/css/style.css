@@ -1,0 +1,31 @@
+body{
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 90vh;
+    height: max-content;
+}
+.login{
+    text-shadow: -4px 0px 8px rgba(255, 255, 255, 0.56);
+    padding: 2%;
+
+    animation: formTitle 1s backwards;
+}
+.form{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    color: rgba(0, 0, 0, 0.905);
+    border: none;
+    
+}
+
+
+@keyframes formTitle{
+
+    0%{
+
+        padding-left: 20%;
+    }
+
+
+}
